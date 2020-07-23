@@ -5,7 +5,7 @@
 # Command: /crash <player
 # Permission: south.crash
 
-# Não use isto para prejudicar jogadores. Apenas se necessário, use contra hackers
+# Não use isto para prejudicar jogadores. Apenas se necessário, use contra hackers.
 
 messages:
   permission-message: "&c&lSOUTHCRASH: &fVocê não tem permissão para executar este comando."

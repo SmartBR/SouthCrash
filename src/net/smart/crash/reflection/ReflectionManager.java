@@ -16,8 +16,8 @@ public class ReflectionManager {
 	public ReflectionManager() {
 		try {
 			getHandle = getOBClass("entity.CraftPlayer").getMethod("getHandle");
-			sendPacket = getNMSClass("PlayerConection").getMethod("sendPacket", getNMSClass("Packet"));
-			playerConnectionField = getNMSClass("EntityPlayer").getField("playerConneciton");
+			sendPacket = getNMSClass("PlayerConnection").getMethod("sendPacket", getNMSClass("Packet"));
+			playerConnectionField = getNMSClass("EntityPlayer").getField("playerConnection");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
