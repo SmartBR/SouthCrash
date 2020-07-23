@@ -1,0 +1,8 @@
+name: SouthCrash
+version: 1.0.0
+author: Smart
+main: net.smart.crash.Main
+
+commands:
+  crash:
+    aliases: [crashar]

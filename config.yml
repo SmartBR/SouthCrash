@@ -1,0 +1,14 @@
+# ->
+# SouthCrash -> v1.0.0
+# ->
+
+# Command: /crash <player
+# Permission: south.crash
+
+# Não use isto para prejudicar jogadores. Apenas se necessário, use contra hackers
+
+messages:
+  permission-message: "&c&lSOUTHCRASH: &fVocê não tem permissão para executar este comando."
+  args-usage: "&3&lSOUTHCRASH: &fUtilize &3/crash <jogador>&f."
+  target-offline: "&c&lSOUTHCRASH: &fEste jogador está offline."
+  target-crashed: "&6&lSOUTHCRASH: &fVocê crashou o jogador &6{target}&f."
